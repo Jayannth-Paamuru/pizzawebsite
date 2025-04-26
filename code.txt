@@ -1,0 +1,33 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-add-to-cart',
+  templateUrl: './add-to-cart.component.html'
+})
+export class AddToCartComponent {
+  cartItems: any[] = [];
+  totalAmount: number = 0;
+
+  getCartItems() {
+    let cart = localStorage.getItem('cart');
+    if (cart) {
+      this.cartItems = JSON.parse(cart); // read back as object array
+      this.totalAmount = 0;
+      for (let item of this.cartItems) {
+        this.totalAmount += item.price;
+      }
+    }
+  }
+}
+__________________________________________
+<h2>Cart Items</h2>
+
+<button (click)="getCartItems()">Load Cart</button>
+
+<div *ngFor="let item of cartItems">
+  <img [src]="item.image" alt="{{ item.name }}" width="100" height="100">
+  <p>{{ item.name }} - ₹{{ item.price }}</p>
+  <hr>
+</div>
+
+<h3>Total: ₹{{ totalAmount }}</h3>
