@@ -1,0 +1,232 @@
+{
+  "user": [
+    {
+      "id": "",
+      "passg": ""
+    },
+    {
+      "id": "jayannth@gmail.com",
+      "passg": "Jayannth"
+    },
+    {
+      "id": "jayannth@gmail.com",
+      "passg": "qwerg;kbn;d"
+    },
+    {
+      "id": "",
+      "passg": "fjfjnf"
+    },
+    {
+      "id": "jayannth",
+      "passg": "123"
+    }
+  ],
+  "products": [
+    {
+      "id": "01",
+      "pname": "Aussie",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": "assets/AussiePizza.jpg"
+      
+    },
+    {
+      "id": "02",
+      "pname": "Capricciosa",
+      "price": "1999",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": "assets/capricciosa.jpg"
+      
+    },
+    {
+      "id": "03",
+      "pname": "CheeseNCornPizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": "assets/CheeseNCornPizza.jpg"
+      
+    },
+    {
+      "id": "04",
+      "pname": "ChickenPizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/ChickenPizza.jpg"
+      
+    },
+    {
+      "id": "05",
+      "pname": "ChickenPizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/ChickenPizza.jpg"
+      
+    },
+    {
+      "id": "07",
+      "pname": "hawaiian",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/hawaiian.jpg"
+      
+    },
+    {
+      "id": "08",
+      "pname": "KaleAndSausagePizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/KaleAndSausagePizza.jpg"
+      
+    },
+    {
+      "id": "09",
+      "pname": "MacnCheesePizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/MacnCheesePizza.jpg"
+      
+    },
+    {
+      "id": "10",
+      "pname": "MexicanGreenWavePizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/MexicanGreenWavePizza.jpg"
+      
+    },
+    {
+      "id": "11",
+      "pname": "PaneerMakhniPizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/PaneerMakhniPizza.jpg"
+      
+    },
+    {
+      "id": "12",
+      "pname": "PaneerPizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/PaneerPizza.jpg"
+      
+    },
+    {
+      "id": "13",
+      "pname": "PepperoniPizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/PepperoniPizza.jpg"
+     
+    },
+    {
+      "id": "14",
+      "pname": "pizzamargherita",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/pizzamargherita.jpg"
+      
+    },
+    {
+      "id": "15",
+      "pname": "SpringPizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": " /assets/SpringPizza.jpg"
+      
+    },
+    {
+      "id": "16",
+      "pname": "veggiedeluxepizza",
+      "price": "2000",
+      "Description": "We have one of the best diner that can be a best decor for your dinning room",
+      "pimage": "/assets/veggiedeluxepizza.jpg"
+      
+    }
+  ],
+  "states": [
+    {
+      "state": "Andhra Pradesh"
+    },
+    {
+      "state": "Arunachal Pradesh"
+    },
+    {
+      "state": "Assam"
+    },
+    {
+      "state": "Bihar"
+    },
+    {
+      "state": "Chhattisgarh"
+    },
+    {
+      "state": "Goa"
+    },
+    {
+      "state": "Gujarat"
+    },
+    {
+      "state": "Haryana"
+    },
+    {
+      "state": "Himachal Pradesh"
+    },
+    {
+      "state": "Jharkhand"
+    },
+    {
+      "state": "Karnataka"
+    },
+    {
+      "state": "Kerala"
+    },
+    {
+      "state": "Madhya Pradesh"
+    },
+    {
+      "state": "Maharashtra"
+    },
+    {
+      "state": "Manipur"
+    },
+    {
+      "state": "Meghalaya"
+    },
+    {
+      "state": "Mizoram"
+    },
+    {
+      "state": "Nagaland"
+    },
+    {
+      "state": "Odisha"
+    },
+    {
+      "state": "Punjab"
+    },
+    {
+      "state": "Rajasthan"
+    },
+    {
+      "state": "Sikkim"
+    },
+    {
+      "state": "Tamil Nadu"
+    },
+    {
+      "state": "Telangana"
+    },
+    {
+      "state": "Tripura"
+    },
+    {
+      "state": "Uttar Pradesh"
+    },
+    {
+      "state": "Uttarakhand"
+    },
+    {
+      "state": "West Bengal"
+    }
+  ]
+}

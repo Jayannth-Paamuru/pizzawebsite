@@ -1,0 +1,42 @@
+ <!-- FULL NAME
+• EMAIL (WITH VALIDATION)
+• PASSWORD (WITH PATTERN AND CONFIRM PASSWORD MATCH)
+• GENDER (RADIO)
+• COUNTRY (DROPDOWN) SHOULD COME FROM ARRAY VARIABLE -->
+<html>
+      <body class="container">
+            <br>
+            <h1 class="display-3" style="margin-left: 400px;"> Register Here </h1><br>
+            
+
+            <fieldset style="width: 500px; margin-left: 400px;">
+                  <form #frm = "ngForm">
+                        <div>
+                              <label class="form-label">Full Name: </label>
+                              <input type="text" required placeholder="FullName" class="form form-control form-control-sm" ></div><br>
+                        <div>
+                              <label class="form-label">Email-id: </label>
+                              <input type="email" required pattern="email" placeholder="Email-id" class="form form-control form-control-sm" id="email"></div><br>
+                        <div>
+                              <label class="form-label">Password: </label>
+                              <input type="Password" required placeholder="Should be atleast 5 chars" class="form form-control form-control-sm"id="pass"></div><br>
+                        <div>
+                              <label class="form-label">ConfirmPassword: </label>
+                              <input type="Password" required class="form form-control form-control-sm" id="cpass" ></div><br>
+                        <!-- <div *ngFor="let cred in user" ngIf="emailid==cred.id">SAME CREDENTAL EXIST TRY NEW</div> -->
+                        <label class="form-label">Gender</label>
+                        <input type="radio" name="gender" class="form-check-input"> Male
+                        <input type="radio" name="gender" class="form-check-input">Female 
+                        <br>
+                        <label class="form-label">State</label>
+                        <select class="form-select form-select-sm"  >
+                              <option>Select State</option>
+                              <option *ngFor="let item of items">{{item.state}}</option>
+                        </select><br>
+                        <button type="submit" class="btn btn-outline-success" (click)="display()">submit</button>{{password}}{{confrim}}
+                        <a routerLink="/login" style="text-decoration: none;margin-left: 250px;" class="btn">Exsisting User?</a>
+                  </form>
+            </fieldset>
+            
+      </body>
+</html>

@@ -1,0 +1,15 @@
+<div class="row justify-content-center">
+      <div class="card col-lg-4 col-md-3 col-sm-12 mx-3 my-3" *ngFor="let i of items" style="width:400px;height: fit-content;">
+                  <img class="card-img-top" src="{{i.pimage}}" alt="{{i.pname}}" height="400px" width="400px" style="width:100%">
+                  <div class="card-body">
+                    <p class="card-text"><b>ItemId:</b> {{i.id}}<br>
+                      <b>ItemName:</b> {{i.pname}}<br>
+                      <b>Description:</b> {{i.Description}}<br>
+                      <b>Price:</b> {{i.price | currency:"INR"}}</p>
+                    <div class="card-footer">
+                      <a href="addtocart"  class="btn btn-warning">Add to cart </a>
+                      <a href="#" class="btn btn-primary mx-5">Buy Now </a>
+                  </div>
+      </div>
+      <br>
+</div>

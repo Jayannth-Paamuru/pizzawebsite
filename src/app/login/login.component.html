@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <style>
+            .i{
+                border: 3px solid red;
+            }
+            .v{
+                border: 3px solid rgb(108, 233, 108);
+            }
+        </style>
+    </head>
+    <body class="container"><br>
+        <h1 class="display-3 justify-content-center" style="margin-left: 400px;">Login Here</h1><br>
+        <fieldset> 
+            <form #frm="ngForm" (ngSubmit)="getdata(frm.value)">   
+                <div style="width: 500px; margin-left: 400px;">
+                     
+                     <label>Username</label>
+                     <input type="email" ngModel #un="ngModel" required name="user" class="form-control" [class.v] = "un.valid" [class.i] ="un.invalid && un.touched" id="mail">
+
+                     <div style="color: red;" *ngIf="un.errors?.['required']&& un.touched">
+                        Enter Username
+                     </div>
+
+                     <div style="color: red;" *ngIf="un.errors?.['pattern']&& un.touched">
+                        invalid pattern Enter alphabets only
+                     </div>
+                     <!-- <label>touched: </label>{{un.touched}}<br>
+                     <label>untouched : </label>{{un.untouched}}<br>
+                     <label>dirty : </label>{{un.dirty}}<br>
+                     <label>pristain : </label>{{un.pristine}}<br>
+                     <label>status: </label>{{un.valid}}<br> -->
+                     <label>Password</label>
+                     <input type="password"  required pattern="[a-z0-9]+" ngModel #u="ngModel" name="pass" class="form-control" [class.v] = "u.valid" [class.i] ="u.invalid && u.touched">
+
+                     <div style="color: red;" *ngIf="u.errors?.['required']&& u.touched">
+                        Enter Password
+                     </div>
+
+                     <div style="color: red;" *ngIf="u.errors?.['pattern']&& u.touched">
+                        invalid pattern Enter alphabets and numbers only
+                     </div>
+                     <div>
+                     <button type="submit" class="btn btn-outline-success"><a routerLink="/registration" style="text-decoration: none;">Login</a></button>
+                        <br>
+                        <button type="button" class="btn btn-outline-success"><a routerLink="/registration" style="text-decoration: none;">NewUser</a></button><br>
+                    </div>
+                </div>
+             </form>
+        </fieldset>
+        
+    </body>
+  </html>
